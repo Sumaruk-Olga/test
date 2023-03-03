@@ -9,9 +9,11 @@ import {
   REGISTER,
 } from 'redux-persist';
 import { clicksReducer } from './clicksSlice';
+import { followersReducer } from './followersSlice';
 
 export const store = configureStore({
   reducer: {
+    followers: followersReducer,
     clicks: clicksReducer,
   },
   middleware(getDefaultMiddleware) {

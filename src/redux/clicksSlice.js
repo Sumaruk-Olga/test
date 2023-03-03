@@ -21,6 +21,3 @@ const persistConfig = {
 export const clicksReducer = persistReducer(persistConfig, clicksSlice.reducer);
 
 export const { update } = clicksSlice.actions;
-
-// Selectors
-export const getClicksValue = state => state.clicks.value;
