@@ -1,3 +1,7 @@
+import avatarLine from ''
+
 export const Avatar = () =>{
-    return <div>Avatar</div>
+    return <div>
+        <img src='' alt=''/>
+    </div>
 }
