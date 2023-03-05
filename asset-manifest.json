@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.7acaea2f.css",
-    "main.js": "/test/static/js/main.199e9150.js",
+    "main.css": "/test/static/css/main.b79651ac.css",
+    "main.js": "/test/static/js/main.51f71b72.js",
+    "static/media/fone-picture.png": "/test/static/media/fone-picture.f8a3ae4c8e3290a50bc3.png",
+    "static/media/Logo.svg": "/test/static/media/Logo.e917114d7945c04c85a8946a331d28b6.svg",
+    "static/media/avatar-line.svg": "/test/static/media/avatar-line.90e23cf44c8259d5b2f74d75abbbd5cd.svg",
     "index.html": "/test/index.html",
-    "main.7acaea2f.css.map": "/test/static/css/main.7acaea2f.css.map",
-    "main.199e9150.js.map": "/test/static/js/main.199e9150.js.map"
+    "main.b79651ac.css.map": "/test/static/css/main.b79651ac.css.map",
+    "main.51f71b72.js.map": "/test/static/js/main.51f71b72.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.199e9150.js"
+    "static/css/main.b79651ac.css",
+    "static/js/main.51f71b72.js"
   ]
 }
