@@ -1,8 +1,8 @@
-import foneImg from '../../images/picture2 1.jpg';
-
+import foneImg from '../../images/fone-picture.png';
+import { Img, Wrapper } from './FoneImage.styled';
 
 export const FoneImage = ()=>{
-    return <>
-    <img src={foneImg} alt="tweet card background"/>
-    </>
+    return <Wrapper>
+    <Img src={foneImg} alt="tweet card background"/>
+    </Wrapper>
 }
