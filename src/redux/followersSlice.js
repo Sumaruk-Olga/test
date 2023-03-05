@@ -6,7 +6,7 @@ const followersSlice = createSlice({
     name:'followers',
     initialState: {value: 10500},
     reducers:{
-        update(state, action){
+        updateFollowers(state, action){
             state.value+=action.payload;
         },
     },
@@ -20,4 +20,4 @@ const persistConfig = {
 
 export const followersReducer = persistReducer(persistConfig, followersSlice.reducer);
 
-export const { update } = followersSlice.actions;
+export const { updateFollowers } = followersSlice.actions;

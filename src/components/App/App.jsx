@@ -1,7 +1,10 @@
+import { Tweet } from "components/Tweet/Tweet";
+import { Container } from "./App.styled";
+
 export const App = () => {
   return (
-    <div>
-      React  template
-    </div>
-  );
+    <Container>
+      <Tweet/>
+    </Container>
+    );
 };

@@ -4,10 +4,10 @@ import storage from 'redux-persist/lib/storage';
 
 const clicksSlice = createSlice({
   name: 'clicks',
-  initialState: { value: 0 },
+  initialState: { value: false },
   reducers: {
-    update(state, action) {
-      state.value += action.payload;
+    updateClicks(state) {
+      state.value = !state.value;
     },
   },
 });
@@ -20,4 +20,4 @@ const persistConfig = {
 
 export const clicksReducer = persistReducer(persistConfig, clicksSlice.reducer);
 
-export const { update } = clicksSlice.actions;
+export const { updateClicks } = clicksSlice.actions;
